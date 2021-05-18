@@ -1768,12 +1768,12 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 /* Top Bar */
 #panel {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 1.0);
   font-weight: bold;
-  height: 38px;
+  height: 34px;
   font-feature-settings: "tnum";
-  border-radius: 9999px;
-  margin: 3px;
+  border-radius: 0px;
+  margin: 0px;
   transition-duration: 250ms;
 }
 
@@ -1786,10 +1786,10 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 #panel .panel-corner {
-  -panel-corner-radius: 0;
-  -panel-corner-background-color: rgba(0, 0, 0, 0.5);
-  -panel-corner-border-width: 0;
-  -panel-corner-border-color: transparent;
+  -panel-corner-radius: 12px;
+  -panel-corner-background-color: rgba(0, 0, 0, 1.0);
+  -panel-corner-border-width: 0px;
+  -panel-corner-border-color: black;
   -panel-corner-opacity: 1;
   transition-duration: 250ms;
 }

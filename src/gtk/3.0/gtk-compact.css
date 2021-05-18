@@ -1,3 +1,255 @@
+/* properties for minimize buttons */
+headerbar button.titlebutton.minimize, .csd headerbar button.titlebutton.minimize, .solid-csd headerbar button.titlebutton.minimize, headerbar.default-decoration button.titlebutton.minimize,
+.titlebar button.titlebutton.minimize,
+headerbar button.titlebutton.minimize:backdrop,
+.titlebar button.titlebutton.minimize:backdrop,
+headerbar button.titlebutton.minimize:hover,
+.titlebar button.titlebutton.minimize:hover,
+headerbar button.titlebutton.minimize:active,
+.titlebar button.titlebutton.minimize:active,
+.csd headerbar:not(.default-decoration) button.titlebutton.minimize, .solid-csd headerbar:not(.default-decoration) button.titlebutton.minimize,
+.csd headerbar:not(.default-decoration) button.titlebutton.minimize:backdrop, .solid-csd headerbar:not(.default-decoration) button.titlebutton.minimize:backdrop,
+.csd headerbar:not(.default-decoration) button.titlebutton.minimize:hover, .solid-csd headerbar:not(.default-decoration) button.titlebutton.minimize:hover,
+.csd headerbar:not(.default-decoration) button.titlebutton.minimize:active, .solid-csd headerbar:not(.default-decoration) button.titlebutton.minimize:active {
+	margin-left: 8px;
+}
+
+
+
+
+/* properties for all close buttons */
+headerbar button.titlebutton.close, .csd headerbar button.titlebutton.close, .solid-csd headerbar button.titlebutton.close, headerbar.default-decoration button.titlebutton.close,
+.titlebar button.titlebutton.close,
+headerbar button.titlebutton.close:backdrop,
+.titlebar button.titlebutton.close:backdrop,
+headerbar button.titlebutton.close:hover,
+.titlebar button.titlebutton.close:hover,
+headerbar button.titlebutton.close:active,
+.titlebar button.titlebutton.close:active,
+.csd headerbar:not(.default-decoration) button.titlebutton.close, .solid-csd headerbar:not(.default-decoration) button.titlebutton.close,
+.csd headerbar:not(.default-decoration) button.titlebutton.close:backdrop, .solid-csd headerbar:not(.default-decoration) button.titlebutton.close:backdrop,
+.csd headerbar:not(.default-decoration) button.titlebutton.close:hover, .solid-csd headerbar:not(.default-decoration) button.titlebutton.close:hover,
+.csd headerbar:not(.default-decoration) button.titlebutton.close:active, .solid-csd headerbar:not(.default-decoration) button.titlebutton.close:active {
+	margin-right: 8px;
+}
+
+
+
+/* properties for all buttons */
+headerbar button.titlebutton.close, .csd headerbar button.titlebutton.close, .solid-csd headerbar button.titlebutton.close, headerbar.default-decoration button.titlebutton.close,
+.titlebar button.titlebutton.close,
+headerbar button.titlebutton.close:backdrop,
+.titlebar button.titlebutton.close:backdrop,
+headerbar button.titlebutton.close:hover,
+.titlebar button.titlebutton.close:hover,
+headerbar button.titlebutton.close:active,
+.titlebar button.titlebutton.close:active,
+headerbar button.titlebutton.maximize, .csd headerbar button.titlebutton.maximize, .solid-csd headerbar button.titlebutton.maximize, headerbar.default-decoration button.titlebutton.maximize,
+.titlebar button.titlebutton.maximize,
+headerbar button.titlebutton.maximize:backdrop,
+.titlebar button.titlebutton.maximize:backdrop,
+headerbar button.titlebutton.maximize:hover,
+.titlebar button.titlebutton.maximize:hover,
+headerbar button.titlebutton.maximize:active,
+.titlebar button.titlebutton.maximize:active,
+headerbar button.titlebutton.minimize, .csd headerbar button.titlebutton.minimize, .solid-csd headerbar button.titlebutton.minimize, headerbar.default-decoration button.titlebutton.minimize,
+.titlebar button.titlebutton.minimize,headerbar button.titlebutton.minimize:backdrop,
+.titlebar button.titlebutton.minimize:backdrop,
+headerbar button.titlebutton.minimize:hover,
+.titlebar button.titlebutton.minimize:hover,
+headerbar button.titlebutton.minimize:active,
+.titlebar button.titlebutton.minimize:active,
+.fullscreen headerbar button.titlebutton.maximize,
+.fullscreen .titlebar button.titlebutton.maximize, .maximized headerbar button.titlebutton.maximize,
+.maximized .titlebar button.titlebutton.maximize,
+.fullscreen headerbar button.titlebutton.maximize:backdrop,
+.fullscreen .titlebar button.titlebutton.maximize:backdrop, .maximized headerbar button.titlebutton.maximize:backdrop,
+.maximized .titlebar button.titlebutton.maximize:backdrop,
+.fullscreen headerbar button.titlebutton.maximize:hover,
+.fullscreen .titlebar button.titlebutton.maximize:hover, .maximized headerbar button.titlebutton.maximize:hover,
+.maximized .titlebar button.titlebutton.maximize:hover,
+.fullscreen headerbar button.titlebutton.maximize:active,
+.fullscreen .titlebar button.titlebutton.maximize:active, .maximized headerbar button.titlebutton.maximize:active,
+.maximized .titlebar button.titlebutton.maximize:active,
+.csd headerbar:not(.default-decoration) button.titlebutton.close, .solid-csd headerbar:not(.default-decoration) button.titlebutton.close,
+.csd headerbar:not(.default-decoration) button.titlebutton.close:backdrop, .solid-csd headerbar:not(.default-decoration) button.titlebutton.close:backdrop,
+.csd headerbar:not(.default-decoration) button.titlebutton.close:hover, .solid-csd headerbar:not(.default-decoration) button.titlebutton.close:hover,
+.csd headerbar:not(.default-decoration) button.titlebutton.close:active, .solid-csd headerbar:not(.default-decoration) button.titlebutton.close:active,
+.csd headerbar:not(.default-decoration) button.titlebutton.maximize, .solid-csd headerbar:not(.default-decoration) button.titlebutton.maximize,
+.csd headerbar:not(.default-decoration) button.titlebutton.maximize:backdrop, .solid-csd headerbar:not(.default-decoration) button.titlebutton.maximize:backdrop,
+.csd headerbar:not(.default-decoration) button.titlebutton.maximize:hover, .solid-csd headerbar:not(.default-decoration) button.titlebutton.maximize:hover,
+.csd headerbar:not(.default-decoration) button.titlebutton.maximize:active, .solid-csd headerbar:not(.default-decoration) button.titlebutton.maximize:active,
+.csd headerbar:not(.default-decoration) button.titlebutton.minimize, .solid-csd headerbar:not(.default-decoration) button.titlebutton.minimize,
+.csd headerbar:not(.default-decoration) button.titlebutton.minimize:backdrop, .solid-csd headerbar:not(.default-decoration) button.titlebutton.minimize:backdrop,
+.csd headerbar:not(.default-decoration) button.titlebutton.minimize:hover, .solid-csd headerbar:not(.default-decoration) button.titlebutton.minimize:hover,
+.csd headerbar:not(.default-decoration) button.titlebutton.minimize:active, .solid-csd headerbar:not(.default-decoration) button.titlebutton.minimize:active,
+.csd.maximized headerbar:not(.default-decoration) button.titlebutton.maximize, .solid-csd.maximized headerbar:not(.default-decoration) button.titlebutton.maximize,
+.csd.maximized headerbar:not(.default-decoration) button.titlebutton.maximize:backdrop, .solid-csd.maximized headerbar:not(.default-decoration) button.titlebutton.maximize:backdrop,
+.csd.maximized headerbar:not(.default-decoration) button.titlebutton.maximize:hover, .solid-csd.maximized headerbar:not(.default-decoration) button.titlebutton.maximize:hover,
+.csd.maximized headerbar:not(.default-decoration) button.titlebutton.maximize:active, .solid-csd.maximized headerbar:not(.default-decoration) button.titlebutton.maximize:active,
+headerbar button.titlebutton, .csd headerbar button.titlebutton, .solid-csd headerbar button.titlebutton, headerbar.default-decoration button.titlebutton, 
+.csd headerbar:not(.default-decoration)
+button.titlebutton, .solid-csd headerbar:not(.default-decoration) button.titlebutton {
+	transition-duration: 0s;
+	background-size: 24px 24px;
+	color: transparent;
+	animation: none;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+
+
+/* properties for individual buttons (file locations) */
+headerbar button.titlebutton.close, .csd headerbar button.titlebutton.close, .solid-csd headerbar button.titlebutton.close, headerbar.default-decoration button.titlebutton.close,
+.titlebar button.titlebutton.close {
+  background-image: url("assets/window-assets/close.svg");
+}
+
+headerbar button.titlebutton.close:backdrop,
+.titlebar button.titlebutton.close:backdrop {
+  background-image: url("assets/window-assets/backdrop.svg");
+}
+
+headerbar button.titlebutton.close:hover,
+.titlebar button.titlebutton.close:hover {
+  background-image: url("assets/window-assets/close-hover.svg");
+}
+
+headerbar button.titlebutton.close:active,
+.titlebar button.titlebutton.close:active {
+  background-image: url("assets/window-assets/close-active.svg");
+}
+
+headerbar button.titlebutton.maximize, .csd headerbar button.titlebutton.maximize, .solid-csd headerbar button.titlebutton.maximize, headerbar.default-decoration button.titlebutton.maximize,
+.titlebar button.titlebutton.maximize {
+  background-image: url("assets/window-assets/maximize.svg");
+}
+
+headerbar button.titlebutton.maximize:backdrop,
+.titlebar button.titlebutton.maximize:backdrop {
+  background-image: url("assets/window-assets/backdrop.svg");
+}
+
+headerbar button.titlebutton.maximize:hover,
+.titlebar button.titlebutton.maximize:hover {
+  background-image: url("assets/window-assets/maximize-hover.svg");
+}
+
+headerbar button.titlebutton.maximize:active,
+.titlebar button.titlebutton.maximize:active {
+  background-image: url("assets/window-assets/maximize-active.svg");
+}
+
+headerbar button.titlebutton.minimize, .csd headerbar button.titlebutton.minimize, .solid-csd headerbar button.titlebutton.minimize, headerbar.default-decoration button.titlebutton.minimize,
+.titlebar button.titlebutton.minimize {
+  background-image: url("assets/window-assets/minimize.svg");
+}
+
+headerbar button.titlebutton.minimize:backdrop,
+.titlebar button.titlebutton.minimize:backdrop {
+  background-image: url("assets/window-assets/backdrop.svg");
+}
+
+headerbar button.titlebutton.minimize:hover,
+.titlebar button.titlebutton.minimize:hover {
+  background-image: url("assets/window-assets/minimize-hover.svg");
+}
+
+headerbar button.titlebutton.minimize:active,
+.titlebar button.titlebutton.minimize:active {
+  background-image: url("assets/window-assets/minimize-active.svg");
+}
+
+.fullscreen headerbar button.titlebutton.maximize,
+.fullscreen .titlebar button.titlebutton.maximize, .maximized headerbar button.titlebutton.maximize,
+.maximized .titlebar button.titlebutton.maximize {
+  background-image: url("assets/window-assets/maximize.svg");
+}
+
+.fullscreen headerbar button.titlebutton.maximize:backdrop,
+.fullscreen .titlebar button.titlebutton.maximize:backdrop, .maximized headerbar button.titlebutton.maximize:backdrop,
+.maximized .titlebar button.titlebutton.maximize:backdrop {
+  background-image: url("assets/window-assets/backdrop.svg");
+}
+
+.fullscreen headerbar button.titlebutton.maximize:hover,
+.fullscreen .titlebar button.titlebutton.maximize:hover, .maximized headerbar button.titlebutton.maximize:hover,
+.maximized .titlebar button.titlebutton.maximize:hover {
+  background-image: url("assets/window-assets/maximize-hover.svg");
+}
+
+.fullscreen headerbar button.titlebutton.maximize:active,
+.fullscreen .titlebar button.titlebutton.maximize:active, .maximized headerbar button.titlebutton.maximize:active,
+.maximized .titlebar button.titlebutton.maximize:active {
+  background-image: url("assets/window-assets/maximize-active.svg");
+}
+
+.csd headerbar:not(.default-decoration) button.titlebutton.close, .solid-csd headerbar:not(.default-decoration) button.titlebutton.close {
+  background-image: url("assets/window-assets/close.svg");
+}
+
+.csd headerbar:not(.default-decoration) button.titlebutton.close:backdrop, .solid-csd headerbar:not(.default-decoration) button.titlebutton.close:backdrop {
+  background-image: url("assets/window-assets/backdrop.svg");
+}
+
+.csd headerbar:not(.default-decoration) button.titlebutton.close:hover, .solid-csd headerbar:not(.default-decoration) button.titlebutton.close:hover {
+  background-image: url("assets/window-assets/close-hover.svg");
+}
+
+.csd headerbar:not(.default-decoration) button.titlebutton.close:active, .solid-csd headerbar:not(.default-decoration) button.titlebutton.close:active {
+  background-image: url("assets/window-assets/close-active.svg");
+}
+
+.csd headerbar:not(.default-decoration) button.titlebutton.maximize, .solid-csd headerbar:not(.default-decoration) button.titlebutton.maximize {
+  background-image: url("assets/window-assets/maximize.svg");
+}
+
+.csd headerbar:not(.default-decoration) button.titlebutton.maximize:backdrop, .solid-csd headerbar:not(.default-decoration) button.titlebutton.maximize:backdrop {
+  background-image: url("assets/window-assets/backdrop.svg");
+}
+
+.csd headerbar:not(.default-decoration) button.titlebutton.maximize:hover, .solid-csd headerbar:not(.default-decoration) button.titlebutton.maximize:hover {
+  background-image: url("assets/window-assets/maximize-hover.svg");
+}
+
+.csd headerbar:not(.default-decoration) button.titlebutton.maximize:active, .solid-csd headerbar:not(.default-decoration) button.titlebutton.maximize:active {
+  background-image: url("assets/window-assets/maximize-active.svg");
+}
+
+.csd headerbar:not(.default-decoration) button.titlebutton.minimize, .solid-csd headerbar:not(.default-decoration) button.titlebutton.minimize {
+  background-image: url("assets/window-assets/minimize.svg");
+}
+
+.csd headerbar:not(.default-decoration) button.titlebutton.minimize:backdrop, .solid-csd headerbar:not(.default-decoration) button.titlebutton.minimize:backdrop {
+  background-image: url("assets/window-assets/backdrop.svg");
+}
+
+.csd headerbar:not(.default-decoration) button.titlebutton.minimize:hover, .solid-csd headerbar:not(.default-decoration) button.titlebutton.minimize:hover {
+  background-image: url("assets/window-assets/minimize-hover.svg");
+}
+
+.csd headerbar:not(.default-decoration) button.titlebutton.minimize:active, .solid-csd headerbar:not(.default-decoration) button.titlebutton.minimize:active {
+  background-image: url("assets/window-assets/minimize-active.svg");
+}
+
+.csd.maximized headerbar:not(.default-decoration) button.titlebutton.maximize, .solid-csd.maximized headerbar:not(.default-decoration) button.titlebutton.maximize {
+  background-image: url("assets/window-assets/maximize.svg");
+}
+
+.csd.maximized headerbar:not(.default-decoration) button.titlebutton.maximize:backdrop, .solid-csd.maximized headerbar:not(.default-decoration) button.titlebutton.maximize:backdrop {
+  background-image: url("assets/window-assets/backdrop.svg");
+}
+
+.csd.maximized headerbar:not(.default-decoration) button.titlebutton.maximize:hover, .solid-csd.maximized headerbar:not(.default-decoration) button.titlebutton.maximize:hover {
+  background-image: url("assets/window-assets/maximize-hover.svg");
+}
+
+.csd.maximized headerbar:not(.default-decoration) button.titlebutton.maximize:active, .solid-csd.maximized headerbar:not(.default-decoration) button.titlebutton.maximize:active {
+  background-image: url("assets/window-assets/maximize-active.svg");
+}
+
+
+
 @keyframes ripple {
   to {
     background-size: 1000% 1000%;

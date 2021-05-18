@@ -1364,12 +1364,13 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 #panel {
-  background-color: rgba(0, 0, 0, 0.5);
-  transition-duration: 250ms;
+  background-color: rgba(0, 0, 0, 1.0);
   font-weight: bold;
   height: 34px;
-  border-radius: 9999px;
-  margin: 2px;
+  font-feature-settings: "tnum";
+  border-radius: 0px;
+  margin: 0px;
+  transition-duration: 250ms;
 }
 
 #panel:overview, #panel.unlock-screen, #panel.login-screen, #panel.lock-screen {
@@ -1377,9 +1378,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 #panel:overview .panel-corner, #panel.unlock-screen .panel-corner, #panel.login-screen .panel-corner, #panel.lock-screen .panel-corner {
-  -panel-corner-radius: 0;
-  -panel-corner-background-color: transparent;
-  -panel-corner-border-color: transparent;
+  -panel-corner-opacity: 0;
 }
 
 #panel #panelLeft, #panel #panelCenter {
@@ -1387,10 +1386,12 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 #panel .panel-corner {
-  -panel-corner-radius: 0;
-  -panel-corner-background-color: rgba(0, 0, 0, 0.5);
-  -panel-corner-border-width: 0;
-  -panel-corner-border-color: transparent;
+  -panel-corner-radius: 12px;
+  -panel-corner-background-color: rgba(0, 0, 0, 1.0);
+  -panel-corner-border-width: 0px;
+  -panel-corner-border-color: black;
+  -panel-corner-opacity: 1;
+  transition-duration: 250ms;
 }
 
 #panel .panel-corner:active, #panel .panel-corner:overview, #panel .panel-corner:focus {
