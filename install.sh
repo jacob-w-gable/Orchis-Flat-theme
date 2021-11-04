@@ -336,5 +336,10 @@ fi
 
 change_radio_color && install_theme && restore_files
 
+cp -r "$REPO_DIR/gnome-shell-light" "$HOME/.themes/Orchis-light"
+mv "$HOME/.themes/Orchis-light/gnome-shell-light" "$HOME/.themes/Orchis-light/gnome-shell"
+cp -r "$REPO_DIR/gnome-shell-light-compact" "$HOME/.themes/Orchis-light-compact"
+mv "$HOME/.themes/Orchis-light-compact/gnome-shell-light-compact" "$HOME/.themes/Orchis-light-compact/gnome-shell"
+
 echo
 echo "Done."
