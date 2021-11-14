@@ -1,101 +1,21 @@
-
-
-/* properties for minimize buttons */
-headerbar box.horizontal.left button.titlebutton.minimize, .csd headerbar box.horizontal.left button.titlebutton.minimize, .solid-csd headerbar box.horizontal.left button.titlebutton.minimize, headerbar.default-decoration box.horizontal.left button.titlebutton.minimize,
-.titlebar box.horizontal.left button.titlebutton.minimize,
-headerbar box.horizontal.left button.titlebutton.minimize:backdrop,
-.titlebar box.horizontal.left button.titlebutton.minimize:backdrop,
-headerbar box.horizontal.left button.titlebutton.minimize:hover,
-.titlebar box.horizontal.left button.titlebutton.minimize:hover,
-headerbar box.horizontal.left button.titlebutton.minimize:active,
-.titlebar box.horizontal.left button.titlebutton.minimize:active,
-.csd headerbar:not(.default-decoration) box.horizontal.left button.titlebutton.minimize, .solid-csd headerbar:not(.default-decoration) box.horizontal.left button.titlebutton.minimize,
-.csd headerbar:not(.default-decoration) box.horizontal.left button.titlebutton.minimize:backdrop, .solid-csd headerbar:not(.default-decoration) box.horizontal.left button.titlebutton.minimize:backdrop,
-.csd headerbar:not(.default-decoration) box.horizontal.left button.titlebutton.minimize:hover, .solid-csd headerbar:not(.default-decoration) box.horizontal.left button.titlebutton.minimize:hover,
-.csd headerbar:not(.default-decoration) box.horizontal.left button.titlebutton.minimize:active, .solid-csd headerbar:not(.default-decoration) box.horizontal.left button.titlebutton.minimize:active {
-	
-}
-headerbar box.horizontal.right button.titlebutton.minimize, .csd headerbar box.horizontal.right button.titlebutton.minimize, .solid-csd headerbar box.horizontal.right button.titlebutton.minimize, headerbar.default-decoration box.horizontal.right button.titlebutton.minimize,
-.titlebar box.horizontal.right button.titlebutton.minimize,
-headerbar box.horizontal.right button.titlebutton.minimize:backdrop,
-.titlebar box.horizontal.right button.titlebutton.minimize:backdrop,
-headerbar box.horizontal.right button.titlebutton.minimize:hover,
-.titlebar box.horizontal.right button.titlebutton.minimize:hover,
-headerbar box.horizontal.right button.titlebutton.minimize:active,
-.titlebar box.horizontal.right button.titlebutton.minimize:active,
-.csd headerbar:not(.default-decoration) box.horizontal.right button.titlebutton.minimize, .solid-csd headerbar:not(.default-decoration) box.horizontal.right button.titlebutton.minimize,
-.csd headerbar:not(.default-decoration) box.horizontal.right button.titlebutton.minimize:backdrop, .solid-csd headerbar:not(.default-decoration) box.horizontal.right button.titlebutton.minimize:backdrop,
-.csd headerbar:not(.default-decoration) box.horizontal.right button.titlebutton.minimize:hover, .solid-csd headerbar:not(.default-decoration) box.horizontal.right button.titlebutton.minimize:hover,
-.csd headerbar:not(.default-decoration) box.horizontal.right button.titlebutton.minimize:active, .solid-csd headerbar:not(.default-decoration) box.horizontal.right button.titlebutton.minimize:active {
+/* outer margin */
+headerbar box.horizontal.left button.titlebutton.close {
 	margin-left: 8px;
 }
-
-
-/* properties for all close buttons */
-headerbar box.horizontal.left button.titlebutton.close, .csd headerbar box.horizontal.left button.titlebutton.close, .solid-csd headerbar box.horizontal.left button.titlebutton.close, headerbar.default-decoration box.horizontal.left button.titlebutton.close,
-.titlebar box.horizontal.left button.titlebutton.close,
-headerbar box.horizontal.left button.titlebutton.close:backdrop,
-.titlebar box.horizontal.left button.titlebutton.close:backdrop,
-headerbar box.horizontal.left button.titlebutton.close:hover,
-.titlebar box.horizontal.left button.titlebutton.close:hover,
-headerbar box.horizontal.left button.titlebutton.close:active,
-.titlebar box.horizontal.left button.titlebutton.close:active,
-headerbar:not(.default-decoration) box.horizontal.left button.titlebutton.close,
-.csd headerbar:not(.default-decoration) box.horizontal.left button.titlebutton.close, .solid-csd headerbar:not(.default-decoration) box.horizontal.left button.titlebutton.close,
-.csd headerbar:not(.default-decoration) box.horizontal.left button.titlebutton.close:backdrop, .solid-csd headerbar:not(.default-decoration) box.horizontal.left button.titlebutton.close:backdrop,
-.csd headerbar:not(.default-decoration) box.horizontal.left button.titlebutton.close:hover, .solid-csd headerbar:not(.default-decoration) box.horizontal.left button.titlebutton.close:hover,
-.csd headerbar:not(.default-decoration) box.horizontal.left button.titlebutton.close:active, .solid-csd headerbar:not(.default-decoration) box.horizontal.left button.titlebutton.close:active {
-	margin-left: 8px;
-}
-headerbar box.horizontal.right button.titlebutton.close, .csd headerbar box.horizontal.right button.titlebutton.close, .solid-csd headerbar box.horizontal.right button.titlebutton.close, headerbar.default-decoration box.horizontal.right button.titlebutton.close,
-.titlebar box.horizontal.right button.titlebutton.close,
-headerbar box.horizontal.right button.titlebutton.close:backdrop,
-.titlebar box.horizontal.right button.titlebutton.close:backdrop,
-headerbar box.horizontal.right button.titlebutton.close:hover,
-.titlebar box.horizontal.right button.titlebutton.close:hover,
-headerbar box.horizontal.right button.titlebutton.close:active,
-.titlebar box.horizontal.right button.titlebutton.close:active,
-headerbar:not(.default-decoration) box.horizontal.right button.titlebutton.close,
-.csd headerbar:not(.default-decoration) box.horizontal.right button.titlebutton.close, .solid-csd headerbar:not(.default-decoration) box.horizontal.right button.titlebutton.close,
-.csd headerbar:not(.default-decoration) box.horizontal.right button.titlebutton.close:backdrop, .solid-csd headerbar:not(.default-decoration) box.horizontal.right button.titlebutton.close:backdrop,
-.csd headerbar:not(.default-decoration) box.horizontal.right button.titlebutton.close:hover, .solid-csd headerbar:not(.default-decoration) box.horizontal.right button.titlebutton.close:hover,
-.csd headerbar:not(.default-decoration) box.horizontal.right button.titlebutton.close:active, .solid-csd headerbar:not(.default-decoration) box.horizontal.right button.titlebutton.close:active {
+headerbar box.horizontal.right button.titlebutton.close {
 	margin-right: 8px;
 }
 
-
-
-/* properties for all maximize buttons */
-headerbar box.horizontal.left button.titlebutton.maximize, .csd headerbar box.horizontal.left button.titlebutton.maximize, .solid-csd headerbar box.horizontal.left button.titlebutton.maximize, headerbar.default-decoration box.horizontal.left button.titlebutton.maximize,
-.titlebar box.horizontal.left button.titlebutton.maximize,
-headerbar box.horizontal.left button.titlebutton.maximize:backdrop,
-.titlebar box.horizontal.left button.titlebutton.maximize:backdrop,
-headerbar box.horizontal.left button.titlebutton.maximize:hover,
-.titlebar box.horizontal.left button.titlebutton.maximize:hover,
-headerbar box.horizontal.left button.titlebutton.maximize:active,
-.titlebar box.horizontal.left button.titlebutton.maximize:active,
-headerbar:not(.default-decoration) box.horizontal.left button.titlebutton.maximize,
-.csd headerbar:not(.default-decoration) box.horizontal.left button.titlebutton.maximize, .solid-csd headerbar:not(.default-decoration) box.horizontal.left button.titlebutton.maximize,
-.csd headerbar:not(.default-decoration) box.horizontal.left button.titlebutton.maximize:backdrop, .solid-csd headerbar:not(.default-decoration) box.horizontal.left button.titlebutton.maximize:backdrop,
-.csd headerbar:not(.default-decoration) box.horizontal.left button.titlebutton.maximize:hover, .solid-csd headerbar:not(.default-decoration) box.horizontal.left button.titlebutton.maximize:hover,
-.csd headerbar:not(.default-decoration) box.horizontal.left button.titlebutton.maximize:active, .solid-csd headerbar:not(.default-decoration) box.horizontal.left button.titlebutton.maximize:active {
-	margin-right: 8px;
+/* inner margin */
+headerbar box.horizontal.left button.titlebutton.minimize + separator.titlebutton.vertical,
+headerbar box.horizontal.left button.titlebutton.maximize + separator.titlebutton.vertical,
+headerbar box.horizontal.left button.titlebutton.close + separator.titlebutton.vertical,
+headerbar box.horizontal.right separator.titlebutton.vertical + button.titlebutton.minimize,
+headerbar box.horizontal.right separator.titlebutton.vertical + button.titlebutton.maximize,
+headerbar box.horizontal.right separator.titlebutton.vertical + button.titlebutton.close {
+	margin-left: 8px;
 }
-headerbar box.horizontal.right button.titlebutton.maximize, .csd headerbar box.horizontal.right button.titlebutton.maximize, .solid-csd headerbar box.horizontal.right button.titlebutton.maximize, headerbar.default-decoration box.horizontal.right button.titlebutton.maximize,
-.titlebar box.horizontal.right button.titlebutton.maximize,
-headerbar box.horizontal.right button.titlebutton.maximize:backdrop,
-.titlebar box.horizontal.right button.titlebutton.maximize:backdrop,
-headerbar box.horizontal.right button.titlebutton.maximize:hover,
-.titlebar box.horizontal.right button.titlebutton.maximize:hover,
-headerbar box.horizontal.right button.titlebutton.maximize:active,
-.titlebar box.horizontal.right button.titlebutton.maximize:active,
-headerbar:not(.default-decoration) box.horizontal.right button.titlebutton.maximize,
-.csd headerbar:not(.default-decoration) box.horizontal.right button.titlebutton.maximize, .solid-csd headerbar:not(.default-decoration) box.horizontal.right button.titlebutton.maximize,
-.csd headerbar:not(.default-decoration) box.horizontal.right button.titlebutton.maximize:backdrop, .solid-csd headerbar:not(.default-decoration) box.horizontal.right button.titlebutton.maximize:backdrop,
-.csd headerbar:not(.default-decoration) box.horizontal.right button.titlebutton.maximize:hover, .solid-csd headerbar:not(.default-decoration) box.horizontal.right button.titlebutton.maximize:hover,
-.csd headerbar:not(.default-decoration) box.horizontal.right button.titlebutton.maximize:active, .solid-csd headerbar:not(.default-decoration) box.horizontal.right button.titlebutton.maximize:active {
-	
-}
+
 
 
 /* properties for all buttons */
