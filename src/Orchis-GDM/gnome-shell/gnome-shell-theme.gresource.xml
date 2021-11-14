@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/org/gnome/shell/theme">
+    <file>icons/scalable/status/carousel-arrow-back-24-symbolic.svg</file>
+    <file>icons/scalable/status/carousel-arrow-next-24-symbolic.svg</file>
+    <file>icons/scalable/status/eye-not-looking-symbolic.svg</file>
+    <file>icons/scalable/status/eye-open-negative-filled-symbolic.svg</file>
+    <file>icons/scalable/status/keyboard-caps-lock-filled-symbolic.svg</file>
+    <file>icons/scalable/status/keyboard-enter-symbolic.svg</file>
+    <file>icons/scalable/status/keyboard-hide-symbolic.svg</file>
+    <file>icons/scalable/status/keyboard-layout-filled-symbolic.svg</file>
+    <file>icons/scalable/status/keyboard-shift-filled-symbolic.svg</file>
+    <file>icons/scalable/status/message-indicator-symbolic.svg</file>
+  </gresource>
+</gresources>
