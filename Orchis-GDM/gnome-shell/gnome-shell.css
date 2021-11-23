@@ -1,3 +1,7 @@
+.window-close {
+  background-image: url("assets/window-close.svg");
+}
+
 /* This stylesheet is generated, DO NOT EDIT */
 stage {
   font-size: 10.5pt;
